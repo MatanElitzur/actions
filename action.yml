@@ -6,3 +6,5 @@ runs:
     - name: Remote action repository
       run: |
         echo "Hello from remote action repository"
+      shell: bash # Defines which shell we choose to execute the command
+      
