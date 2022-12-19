@@ -1,0 +1,8 @@
+name: 'Action repository'
+description: 'This is an acttion repo will be used by other repositories'
+runs:
+  using: 'composite' # This will tell github that this is a custom composite action
+  steps:
+    - name: Remote action repository
+      run: |
+        echo "Hello from remote action repository"
